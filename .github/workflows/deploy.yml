@@ -19,7 +19,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify
+        run: hugo --minify --baseURL="https://lutzcc1.github.io/mysite/"
 
       - name: Configure Git
         run: |
