@@ -2,6 +2,8 @@ baseURL = "https://lutzcc1.github.io/mysite/"
 languageCode = "en-us"
 title = "Luis"
 theme = "PaperMod"
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   author = "Luis"
