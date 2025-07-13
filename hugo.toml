@@ -2,8 +2,6 @@ baseURL = "https://lutzcc1.github.io/mysite/"
 languageCode = "en-us"
 title = "Luis"
 theme = "PaperMod"
-relativeURLs = false
-canonifyURLs = true
 
 [params]
   author = "Luis"
@@ -21,3 +19,7 @@ canonifyURLs = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
