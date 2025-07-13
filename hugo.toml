@@ -1,0 +1,21 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Luis"
+theme = "PaperMod"
+
+[params]
+  author = "Luis"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "light"
+
+[params.homeInfoParams]
+  Title = "Hi, I'm Luis"
+  Content = "I’m a software engineer who writes about code, tech, and life."
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
